@@ -1,0 +1,267 @@
+@movie Opening
+@back Cuarto
+@set key=0
+@set linterna=0
+@set CD=0
+@set Code=0
+@bgm  volume:0.5 loop:true fade:5
+@char Tom.JojoPose
+@bgm Begining
+@wait 2
+@char Tom.Confundido
+Tom: ¿Qué? ¿Dónde estoy? ¿Donde...?
+@char Lee.Mamón
+Lee: Tardaste en despertar...
+@char Tom.Confundido
+Tom: ¿E-eh?
+@char Lee.Mamón
+Lee: Que tardaste en despertar... Pero supongo que es mejor tarde que nunca. Sinceramente no se que hubiera hecho con tu cuerpo
+@char Tom.UhB
+Tom: Eh, tú... ¿Qué es este lugar?¿Dónde estoy?
+@char Lee.MiraAlLadito
+Lee: Uh... de verdad no tienes ni idea de lo que pasa, no es así? 
+@char Tom.UhB
+Tom: Espera... esto... ¿Esto es un hospital?
+@char Lee.Thonk
+Lee: ...
+@char Tom.Generic
+Tom: .Es un hospital.
+@char Lee.Guaos
+Lee: Supongo que has estado en uno antes.
+@char Tom.Duh
+Tom: ¿Qué hago aquí
+@char Lee.JiJi
+Lee: Sinceramente no lo sé tampoco...
+@char Tom.Nani
+Tom: ¿Como?
+@char Lee.Sensual
+Lee: Bueno, para empezar, supongo que deberíamos comenzar a buscar como salir de este lugar abandonado, ¿No crees?
+@char Tom.Generic
+Tom: ¿Pero qué haces tú aquí? ¿Y quién eres? 
+@char Lee.ArmsCrossed
+Lee:  Te podría preguntar exactamente lo mismo, pero a este punto es irrelevante ¿No crees? Quieres salir de aquí, así que andando…
+@back PasilloA
+@char Tom.CrossedArms
+Tom: No voy a ir con un extraño en un hospital abandonado.
+@char Lee.Oww
+Lee: Te podría preguntar exactamente lo mismo, pero a este punto es irrelevante ¿No crees?
+@char Lee.Explain
+Lee: Quieres salir de aquí, así que andando...
+@char Tom.Kira
+Tom: No voy a ir con un extraño en un hospital abandonado...
+@char Lee.SiPeroNo
+Lee: Si quisiera matarte o algo, ya lo habría hecho mientras dormías.
+@char Tom.Duh
+Tom: ...Tienes un punto... Quizás...
+@char Tom.Insecure
+@char Lee.Chao
+Lee: Entonces, si ya terminaste con la paranoia: debemos decidir a dónde ir. Por cierto, mi nombre es Lee
+
+# Pasillo
+@char Tom visible:false
+@char Lee visible:false
+@back PasilloB
+@stopBgm 
+@bgm LiminalSpace
+@choice Oficina goto:.Oficina
+@choice Escaleras goto:.Escaleras
+@choice "Habitación 2" goto:.Habitacion2
+@choice "Pasillo 2" goto:.Pasillo2
+@stop
+
+# Oficina
+@char Lee visible:false
+@stopBgm 
+@bgm MysteryMusic
+@back Oficina
+@choice Estante goto:.Estante
+@choice Computadora goto:.Computadora
+@choice Archivero goto:.ArchiveroRoot
+@choice Atrás goto:.Pasillo
+@stop
+
+# Computadora
+@back PCOff
+@wait 1
+@back PCOn
+@choice explorador goto:.Explorador
+@choice imagenes goto:.Imagenes set:key=1
+@choice Atrás goto:.Oficina
+@stop
+
+# Explorador
+@back PCExplorer
+El acceso al archivo ha sido bloqueado
+Lee: Me parece que necesitas algo para abrir eso.
+@goto .Computadora
+@stop
+
+# Imagenes
+Lee: Creo que eso es importante, prueba a abrir una.
+Lee: Oh mira te dieron una llave.
+Tom: Espera, ¿Que? ¿Cómo? 
+Lee: Guárdala, podrá servir para algo...
+Tom: ¿De dónde saqué esta llave?
+Lee: ¿Encontraste algo más?
+Tom: ...mmmm no, solo la llave… Pero agradecería que no me ignoraras...
+@goto .Computadora
+@stop
+
+# ArchiveroRoot
+@back ArchiveroA
+@if key=0
+Lee: Mmm, parece que necesitas algo para abrir eso.
+@goto .Oficina
+@elseif key=1
+Lee: Creo que puedes usar la llave para abrir esto.
+Tom: *Utiliza la llave para abrir el archivero*
+@back ArchiveroB
+@wait 1
+@back ArchiveroC
+¡Has obtenido  tres carpetas con datos de tres pacientes, una linterna, unas pilas y una usb!
+@char Lee.Explain visible:true
+Lee: Bueno, aquí no hay nada más, tal vez debamos ir a las otras puertas.
+@set linterna=1
+@goto .Oficina
+@endif
+@stop
+
+# Estante
+@back Estante
+Lee: Hmm, parece que aquí hay un acertijo...
+Tom: ¿De que hablas? solo son libros desacomodados que hay que ordenar...
+Lee: No perdemos nada intentándolo, aunque te advierto que algo podría pasar si completamos el puzzle
+@choice ¡resolvámoslo! goto:.Puzzle1
+@choice "mejor no" goto:.Oficina
+@stop
+
+# Puzzle1
+@puzzle
+@stop
+
+# Escaleras
+@stopBgm 
+@bgm Eerie
+@back Escaleras
+@if linterna=0
+Lee: ¿Estás seguro de que quieres entrar ahí? No tenemos linterna...
+@choice "Sí, bajemos" goto:.Escaleras2
+@choice "Mejor volvamos" goto:.Pasillo
+@stop
+@elseif linterna=1
+@char Lee.Thonk visible:true
+Lee: ¿Estás seguro de que quieres entrar ahí? Siento unas vibras raras emanar del lugar...
+@choice "Sí, bajemos"
+@choice "Mejor volvamos" goto:.Pasillo
+@char Lee.MeDoxxean visible:false
+@stop
+@back Boxxy
+Lee: Tal vez tienes que buscar algo...
+Tom: hum... mira, busquemos en esa...
+@choice "Pila grande de cajas" goto:.Escaleras2
+@choice "Caja de zapatos"
+@choice "Mejor olvídalo" goto:.Pasillo
+@stop
+@back BoxA
+@wait 1
+@back BoxB
+@wait 1
+@back BoxC
+@wait 1
+@back BoxD
+*Has obtenido unas pilas, una navaja, y un CD*
+@back BoxF
+@set CD=1
+@back Boxxy
+@char Lee.MeDoxxean visible:true
+Lee: AAAAAA ME DOXXEAAAAN
+@char Tom.Nani visible:true
+Tom: ¿QUE TE PASÓ? 
+@char Lee.JiJi
+Lee: Ji, Ji: bromita
+Tom: Me asustas... mejor vámonos de aquí ya.
+@goto .Pasillo
+@endif
+@stop
+
+# Escaleras2
+@stopBgm 
+@bgm Depths
+@back Boxxy
+Tom: ¿Q-qué es eso?
+@char Lee.JiJi visible:true
+Lee: ¿Sabes? Creo que no debiste bajar...
+Tom: Mierda.
+@char Lee visible:false
+@hidePrinter 
+@movie Screamer1
+@back GameOver
+@stop
+
+# Habitacion2
+@stopBgm 
+@bgm Depths
+@back Liminal
+@char Tom.UhA visible:true
+Tom: Es un área para niños...
+@char Lee.JiJi visible:true
+Lee: Wow, que observador mi amigo.
+@char Tom.Kira
+Tom: ...
+@char Lee.TodoUnFornicador
+Lee: ¡Mira, ahí hay un reproductor de música!
+@if CD=0
+@char Lee.Explain
+Lee: Quizá deberíamos volver mas tarde, cuando encuentres un CD.
+@char Tom.Generic
+Tom: Dudo mucho encontrar eso aquí, pero ok.
+@goto .Pasillo
+@elseif CD=1
+@char Lee.JiJi
+Lee: ¿Que tal y si intentas poner el CD que encontraste ahí? A lo mejor y tiene música de Tatiana...
+@char Tom.Duh
+Tom: Si, claro: lo que digas.
+@char Lee visible:false
+@char Tom.Idle visible:false
+@char Radio.Gaga visible.true
+*Introduciendo CD*
+*Leyendo CD*
+BEEP
+X: Ya sabes que las puertas deben permanecer cerradas las 24 horas del día, por eso existe el código de ingreso.
+Y: ¡Ok tranquilo! Solo me fui unos minutos.
+X: No seas imbécil, si uno de estos lunáticos logra salir de aquí, tú y yo estaremos despedidos en menos de lo que canta un gallo.
+Y: Ya entendí, no sobreactues, nada salió mal. ¿Cambiaste el código de acceso? Dame el nuevo.
+X: Agh, más vale que te lo aprendas, no lo repetiré. Es 97732.
+@char Lee.JiJi visible:true
+Lee: A huevo, chismecito: ¿Memorizaste algo?
+Tom: 97732...
+@set Code=1
+@char Lee visible:false
+@char Radio visible.false
+@goto .Pasillo
+@endif
+@stop
+
+# Pasillo2
+@back PasilloB
+@char Lee.Thonk visible:true
+Lee: ¡Mira! ¡Esa puerta se puede abrir solo con un código! 
+@if Code=0
+Tom: Una pena, yo no me lo sé...
+Lee: Tampoco yo: supongo que deberemos volver en otro momento
+@goto .Pasillo
+@elseif Code=1
+Tom: 9 7 7 3 2...
+*click*
+@char Lee.SiPeroNo visible:true
+Lee: ¡Woah! ¡No tán rápido, velocista! ¿De verdad vas a entrar a ese lugar?
+@choice "No, me da mala espina" goto:.Pasillo
+@choice Sí
+@stop
+@char Lee.Ohio
+Lee: Está bien: vamos allá...
+@char Lee visible:false
+@char Tom visible:false
+@hidePrinter 
+@back Continuara
+@stop

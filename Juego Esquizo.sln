@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elringus.Naninovel.Runtime", "Elringus.Naninovel.Runtime.csproj", "{08F74448-D3F2-656F-3E45-29528A3BC2F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elringus.Naninovel.Editor", "Elringus.Naninovel.Editor.csproj", "{8A8E7814-A75F-D3B8-BF71-E2B6C23A1FF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{F04A71FF-211A-4AFA-0003-3DF07A603D3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08F74448-D3F2-656F-3E45-29528A3BC2F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08F74448-D3F2-656F-3E45-29528A3BC2F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08F74448-D3F2-656F-3E45-29528A3BC2F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08F74448-D3F2-656F-3E45-29528A3BC2F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A8E7814-A75F-D3B8-BF71-E2B6C23A1FF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A8E7814-A75F-D3B8-BF71-E2B6C23A1FF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A8E7814-A75F-D3B8-BF71-E2B6C23A1FF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A8E7814-A75F-D3B8-BF71-E2B6C23A1FF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F04A71FF-211A-4AFA-0003-3DF07A603D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F04A71FF-211A-4AFA-0003-3DF07A603D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F04A71FF-211A-4AFA-0003-3DF07A603D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F04A71FF-211A-4AFA-0003-3DF07A603D3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

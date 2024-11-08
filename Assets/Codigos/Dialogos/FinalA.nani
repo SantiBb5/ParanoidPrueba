@@ -1,0 +1,8 @@
+@back Darkness
+@char Lee.SiPeroNo
+Tom: Lee…¿qué está pasando?
+Lee: Tom yo- 
+@char Lee visible:false
+@hidePrinter
+@back Continuara
+@stop

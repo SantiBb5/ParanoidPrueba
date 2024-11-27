@@ -5,7 +5,7 @@
 @set CD=0
 @set Code=0
 @bgm  volume:0.5 loop:true fade:5
-@char Tom.JojoPose
+@char Tom.Confundido
 @bgm Begining
 @wait 2
 @char Tom.Confundido
@@ -16,42 +16,38 @@ Lee: Tardaste en despertar...
 Tom: ¿E-eh?
 @char Lee.Mamón
 Lee: Que tardaste en despertar... Pero supongo que es mejor tarde que nunca. Sinceramente no se que hubiera hecho con tu cuerpo
-@char Tom.UhB
+@char Tom.Confundido
 Tom: Eh, tú... ¿Qué es este lugar?¿Dónde estoy?
 @char Lee.MiraAlLadito
 Lee: Uh... de verdad no tienes ni idea de lo que pasa, no es así? 
-@char Tom.UhB
+@char Tom.SacadodePedo
 Tom: Espera... esto... ¿Esto es un hospital?
 @char Lee.Thonk
 Lee: ...
-@char Tom.Generic
+@char Tom.SacadodePedo
 Tom: .Es un hospital.
 @char Lee.Guaos
 Lee: Supongo que has estado en uno antes.
-@char Tom.Duh
-Tom: ¿Qué hago aquí
+@char Tom.Confundido
+Tom: ¿Qué hago aquí?
 @char Lee.JiJi
 Lee: Sinceramente no lo sé tampoco...
-@char Tom.Nani
+@char Tom.Confundido
 Tom: ¿Como?
 @char Lee.Sensual
 Lee: Bueno, para empezar, supongo que deberíamos comenzar a buscar como salir de este lugar abandonado, ¿No crees?
-@char Tom.Generic
+@char Tom.Confundido
 Tom: ¿Pero qué haces tú aquí? ¿Y quién eres? 
 @char Lee.ArmsCrossed
 Lee:  Te podría preguntar exactamente lo mismo, pero a este punto es irrelevante ¿No crees? Quieres salir de aquí, así que andando…
 @back PasilloA
-@char Tom.CrossedArms
+@char Tom.Desconfiado
 Tom: No voy a ir con un extraño en un hospital abandonado.
-@char Lee.Oww
-Lee: Te podría preguntar exactamente lo mismo, pero a este punto es irrelevante ¿No crees?
 @char Lee.Explain
-Lee: Quieres salir de aquí, así que andando...
-@char Tom.Kira
 Tom: No voy a ir con un extraño en un hospital abandonado...
 @char Lee.SiPeroNo
 Lee: Si quisiera matarte o algo, ya lo habría hecho mientras dormías.
-@char Tom.Duh
+@char Tom.Pensando
 Tom: ...Tienes un punto... Quizás...
 @char Tom.Insecure
 @char Lee.Chao
@@ -223,7 +219,6 @@ Lee: ¿Que tal y si intentas poner el CD que encontraste ahí? A lo mejor y tien
 Tom: Si, claro: lo que digas.
 @char Lee visible:false
 @char Tom.Idle visible:false
-@char Radio.Gaga visible.true
 *Introduciendo CD*
 *Leyendo CD*
 BEEP
@@ -237,7 +232,6 @@ Lee: A huevo, chismecito: ¿Memorizaste algo?
 Tom: 97732...
 @set Code=1
 @char Lee visible:false
-@char Radio visible.false
 @goto .Pasillo
 @endif
 @stop

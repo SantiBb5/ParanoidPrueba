@@ -294,10 +294,10 @@ MonoBehaviour:
       guid: 17533afc9205fc244a92c58c6842418b
     - name: Neutral
       pathPrefix: Characters/Lee
-      guid: 86718a42660a6564a9135e7b41ba87c1
+      guid: f48486ce120258e44825be650647e626
     - name: Soberbio
       pathPrefix: Characters/Lee
-      guid: 90aaa22bd1fc9ae4da73529cc24093d2
+      guid: 86718a42660a6564a9135e7b41ba87c1
     - name: JiJi
       pathPrefix: Characters/Lee
       guid: c29a023b85ee2a945a432e2bc72d6f49

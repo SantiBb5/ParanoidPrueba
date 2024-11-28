@@ -176,7 +176,7 @@ MonoBehaviour:
       guid: 7fc6844e9feefe74d8877c5f1c86e945
     - name: Escaleras
       pathPrefix: Backgrounds/MainBackground
-      guid: 2b42c3d745316304295a402258081f4d
+      guid: 8fa2906189383ef4cb9fc54fe276aeb1
     - name: Oficina
       pathPrefix: Backgrounds/MainBackground
       guid: 04d087c4305265544b84dfb16e743c91
@@ -224,7 +224,7 @@ MonoBehaviour:
       guid: aaaae4965db4b1f4d99cd5d00fe6971a
     - name: Boxxy
       pathPrefix: Backgrounds/MainBackground
-      guid: 0ea379311a4541a48969231b79c3a574
+      guid: 887a95c878c59814f8aa9ad134207fd7
     - name: Liminal
       pathPrefix: Backgrounds/MainBackground
       guid: cf0ac5cb04513ce41a49433d73d2ebbc

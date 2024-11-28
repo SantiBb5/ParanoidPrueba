@@ -379,3 +379,176 @@ Received Import Request.
 Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg using Guid(17c350171f7a3ca479f830547c66d187) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d96930f2379a189767b2e0f4afce520') in 0.0137327 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
+========================================================================
+Received Import Request.
+  Time since last request: 78273.894972 seconds.
+  path: Assets/NaninovelData/EditorResources.asset
+  artifactKey: Guid(04a999f410e60c54ba891ca8565c4625) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaninovelData/EditorResources.asset using Guid(04a999f410e60c54ba891ca8565c4625) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86c3321f80343d76d8b990b9d9835d13') in 0.2742077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.949983 seconds.
+  path: Assets/Assets_visuales/Fondos/Anteriores/Fondo Sotano01.jpg
+  artifactKey: Guid(0ea379311a4541a48969231b79c3a574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_visuales/Fondos/Anteriores/Fondo Sotano01.jpg using Guid(0ea379311a4541a48969231b79c3a574) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7862aabcf73fec264f5999e9b517f8fe') in 0.0513215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/Assets_visuales/Fondos/Anteriores/Fondo Sotano01 1.jpg
+  artifactKey: Guid(5bf819580388af44d8727dbb81862fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_visuales/Fondos/Anteriores/Fondo Sotano01 1.jpg using Guid(5bf819580388af44d8727dbb81862fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '983ab4278129dfda26df80b578f85ee0') in 0.0310634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/NuevosAssets/Fondos/Fondo_despertar_Valeria.PNG
+  artifactKey: Guid(7fc6844e9feefe74d8877c5f1c86e945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuevosAssets/Fondos/Fondo_despertar_Valeria.PNG using Guid(7fc6844e9feefe74d8877c5f1c86e945) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cae0c30062cf57149831a0f8b765a9e') in 0.0245477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.277767 seconds.
+  path: Assets/Assets_visuales/Fondos/Anteriores/CCOsas1.png
+  artifactKey: Guid(f4fe3e74c21dbf147887bfa2bdc44cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_visuales/Fondos/Anteriores/CCOsas1.png using Guid(f4fe3e74c21dbf147887bfa2bdc44cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90de8c5784247789f8508dfdeda972d6') in 0.0272769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Assets_visuales/Fondos/Anteriores/Cuarto.png
+  artifactKey: Guid(0f7e9ebc894d9f84a9e56c5288cdf373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_visuales/Fondos/Anteriores/Cuarto.png using Guid(0f7e9ebc894d9f84a9e56c5288cdf373) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7edb1d2ab72404dc89fe2c1471160bf4') in 0.0447471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets_visuales/Fondos/Anteriores/Computadora.png
+  artifactKey: Guid(6ab3bbd613aa3f64586c2202563fafdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_visuales/Fondos/Anteriores/Computadora.png using Guid(6ab3bbd613aa3f64586c2202563fafdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77d4fc524dedf5928cdcafcf33a13fec') in 0.0180851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets_visuales/Fondos/Anteriores/Hallway_rgb_effect.PNG
+  artifactKey: Guid(5a54d21557ece554daa088c3a65260a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_visuales/Fondos/Anteriores/Hallway_rgb_effect.PNG using Guid(5a54d21557ece554daa088c3a65260a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e42da77f8071f665521d19b18b73de54') in 0.0157022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets_visuales/Fondos/Anteriores/Influencia.png
+  artifactKey: Guid(2876d7f55f8a2a64c8b59c2c4af3fc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_visuales/Fondos/Anteriores/Influencia.png using Guid(2876d7f55f8a2a64c8b59c2c4af3fc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3a2e7f6998258fa3d7ef10a59648b2e') in 0.1081341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Assets_visuales/Fondos/Anteriores/Neurociencia.png
+  artifactKey: Guid(314af1b29d3f8a54f811a5705e8a9480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_visuales/Fondos/Anteriores/Neurociencia.png using Guid(314af1b29d3f8a54f811a5705e8a9480) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '943510ebb71641d0f83c066b61daead9') in 0.0751645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Assets_visuales/Fondos/Anteriores/CCOsas1 1.png
+  artifactKey: Guid(edf80d74cf3d411499fa9cc8eae65cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_visuales/Fondos/Anteriores/CCOsas1 1.png using Guid(edf80d74cf3d411499fa9cc8eae65cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '023f8c71b9846a75e0c263c30ec854bb') in 0.0775432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets_visuales/Fondos/Anteriores/Liminal.jpg
+  artifactKey: Guid(203498bc86645e84eb332274ad2591da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_visuales/Fondos/Anteriores/Liminal.jpg using Guid(203498bc86645e84eb332274ad2591da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6a08fccbd2fa409e06fb471beda951f') in 0.1005014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Assets_visuales/Fondos/Anteriores/Vida de la mente.png
+  artifactKey: Guid(1b5f2e0cd461beb468e9381cd242dc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_visuales/Fondos/Anteriores/Vida de la mente.png using Guid(1b5f2e0cd461beb468e9381cd242dc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff51957482fcba92581c42d206871797') in 0.0690165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets_visuales/Fondos/Anteriores/IMG_1089.PNG
+  artifactKey: Guid(b81aef649a4f88c42b2f6b9c1f609978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_visuales/Fondos/Anteriores/IMG_1089.PNG using Guid(b81aef649a4f88c42b2f6b9c1f609978) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4d78b188cc64a40bb73874d506fa567') in 0.0623311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Assets_visuales/Fondos/Anteriores/IMG_1088.PNG
+  artifactKey: Guid(886dcc969f66ea84598f59dc9070d148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_visuales/Fondos/Anteriores/IMG_1088.PNG using Guid(886dcc969f66ea84598f59dc9070d148) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8287e60750e682758e9ceb06dcbd496c') in 0.0539561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Assets_visuales/Fondos/Anteriores/Escaleras.png
+  artifactKey: Guid(acdf0251b25ac894199da0d7873ac1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_visuales/Fondos/Anteriores/Escaleras.png using Guid(acdf0251b25ac894199da0d7873ac1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9de055607607214e8da86d3fb2c8418c') in 0.0430035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.906836 seconds.
+  path: Assets/Assets_visuales/Fondos/Anteriores/ArchiveroA.jpeg
+  artifactKey: Guid(d659f7423863772409092805c588a641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_visuales/Fondos/Anteriores/ArchiveroA.jpeg using Guid(d659f7423863772409092805c588a641) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b46f2e25628c52a27dc24118e35cec36') in 0.0284107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053846 seconds.
+  path: Assets/Assets_visuales/Fondos/Anteriores/ArchiveroC.jpeg
+  artifactKey: Guid(3b7639e3ea15e724b97845105f3e98af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_visuales/Fondos/Anteriores/ArchiveroC.jpeg using Guid(3b7639e3ea15e724b97845105f3e98af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3a7eeac6dac962b995a99b21eb81e2e') in 0.0841961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Assets_visuales/Fondos/Anteriores/Caja1 1.png
+  artifactKey: Guid(d040b42d98797f64db42a4dc3a6ee9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_visuales/Fondos/Anteriores/Caja1 1.png using Guid(d040b42d98797f64db42a4dc3a6ee9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7ba69a504d5c2d3a26e19ce2be10921') in 0.0624816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052776 seconds.
+  path: Assets/Assets_visuales/Fondos/Anteriores/Caja3.png
+  artifactKey: Guid(9ec494e489e97944e8e580be1838f181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_visuales/Fondos/Anteriores/Caja3.png using Guid(9ec494e489e97944e8e580be1838f181) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '254242058163d9e8d75fdb24332094eb') in 0.0197022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets_visuales/Fondos/Anteriores/CCosas.png
+  artifactKey: Guid(ab767afeebbd6ad42aaee3212aca8389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_visuales/Fondos/Anteriores/CCosas.png using Guid(ab767afeebbd6ad42aaee3212aca8389) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '002e76db8bd9f37b416cc353d24fce8d') in 0.011297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

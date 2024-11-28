@@ -13,7 +13,7 @@ scopes = {
 	"last_search.0B486DF2" = ""
 	"OpenInspectorPreview.0B486DF2" = "0"
 	"currentGroup.0B486DF2" = null
-	"last_search.8DF93126" = "dialogo"
+	"last_search.8DF93126" = "fondo"
 	"OpenInspectorPreview.8DF93126" = "0"
 	"currentGroup.8DF93126" = null
 }
@@ -72,6 +72,7 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"fondo"
 ]
 searchItemFavorites = [
 ]

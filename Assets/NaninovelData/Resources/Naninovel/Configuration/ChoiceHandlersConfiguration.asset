@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DefaultDuration: 0.35
   DefaultEasing: 0
-  AutoShowOnModify: 1
+  AutoShowOnModify: 0
   DefaultHandlerId: ButtonList
   ChoiceButtonLoader:
     PathPrefix: 

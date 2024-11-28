@@ -185,7 +185,7 @@ MonoBehaviour:
       guid: 5a54d21557ece554daa088c3a65260a1
     - name: PasilloB
       pathPrefix: Backgrounds/MainBackground
-      guid: d2c0b32c3a0b75243aac4d18a4c5ce95
+      guid: 5a54d21557ece554daa088c3a65260a1
     - name: PCOn
       pathPrefix: Backgrounds/MainBackground
       guid: bc93405da7732b24fa3c1413748084d3
@@ -376,4 +376,6 @@ MonoBehaviour:
       pathPrefix: Characters/Radio
       guid: 9a06c9d033bb0f24c8cd3a2023d1bcaa
   - Id: CharacterAvatars
+    Resources: []
+  - Id: Unlockables
     Resources: []

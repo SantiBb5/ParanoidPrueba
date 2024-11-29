@@ -49,8 +49,8 @@ Tom: No voy a ir con un extraño en un hospital abandonado...
 Lee: Si quisiera matarte o algo, ya lo habría hecho mientras dormías.
 @char Tom.Pensando
 Tom: ...Tienes un punto... Quizás...
-@char Tom.Pensando
-@char Lee.Mamon
+@char Tom.Insecure
+@char Lee.Chao
 Lee: Entonces, si ya terminaste con la paranoia: debemos decidir a dónde ir. Por cierto, mi nombre es Lee
 
 # Pasillo
@@ -93,19 +93,13 @@ Lee: Me parece que necesitas algo para abrir eso.
 @stop
 
 # Imagenes
-@char Lee.Mamon
-Lee: Necesitas algo para abrir eso...
+Lee: Creo que eso es importante, prueba a abrir una.
 Lee: Oh mira te dieron una llave.
-@char Tom.Sacadodepedo
 Tom: Espera, ¿Que? ¿Cómo? 
-@char Lee.Mamon
 Lee: Guárdala, podrá servir para algo...
-@char Tom.Confundido
 Tom: ¿De dónde saqué esta llave?
-@char Lee.Confundido
 Lee: ¿Encontraste algo más?
-@char Tom.Confundido
-Tom: No, solo la llave…
+Tom: ...mmmm no, solo la llave… Pero agradecería que no me ignoraras...
 @goto .Computadora
 @stop
 
@@ -121,10 +115,8 @@ Tom: *Utiliza la llave para abrir el archivero*
 @wait 1
 @back ArchiveroC
 ¡Has obtenido  tres carpetas con datos de tres pacientes, una linterna, unas pilas y una usb!
-@char Lee.Confundido visible:true
+@char Lee.Explain visible:true
 Lee: Bueno, aquí no hay nada más, tal vez debamos ir a las otras puertas.
-@char Lee.Soberbio
-Lee: Que no se te olvide guardar ni salvar nada...
 @set linterna=1
 @goto .Oficina
 @endif
@@ -132,9 +124,9 @@ Lee: Que no se te olvide guardar ni salvar nada...
 
 # Estante
 @back Estante
-Lee: Hmm, parece ser un acertijo...
+Lee: Hmm, parece que aquí hay un acertijo...
 Tom: ¿De que hablas? solo son libros desacomodados que hay que ordenar...
-Lee: Deberias intentarlo, me intriga saber que pasará cuando los acomodes
+Lee: No perdemos nada intentándolo, aunque te advierto que algo podría pasar si completamos el puzzle
 @choice ¡resolvámoslo! goto:.Puzzle1
 @choice "mejor no" goto:.Oficina
 @stop
@@ -148,24 +140,20 @@ Lee: Deberias intentarlo, me intriga saber que pasará cuando los acomodes
 @bgm Eerie
 @back Escaleras
 @if linterna=0
-@char Lee.Confundido
-Lee: ¡Eh, espera! Pregunta, ¿A dónde se supone que vamos?
-@char Tom.Confundido
-Tom: Pues, al piso de abajo...
 Lee: ¿Estás seguro de que quieres entrar ahí? No tenemos linterna...
 @choice "Sí, bajemos" goto:.Escaleras2
 @choice "Mejor volvamos" goto:.Pasillo
 @stop
 @elseif linterna=1
-@char Lee.Soberbio visible:true
-Lee: ¿Estás seguro de que quieres entrar ahí?...
+@char Lee.Thonk visible:true
+Lee: ¿Estás seguro de que quieres entrar ahí? Siento unas vibras raras emanar del lugar...
 @choice "Sí, bajemos"
 @choice "Mejor volvamos" goto:.Pasillo
-@char Lee.Soberbio visible:false
+@char Lee.MeDoxxean visible:false
 @stop
 @back Boxxy
 Lee: Tal vez tienes que buscar algo...
-Tom: hm... mira, busquemos en esa...
+Tom: hum... mira, busquemos en esa...
 @choice "Pila grande de cajas" goto:.Escaleras2
 @choice "Caja de zapatos"
 @choice "Mejor olvídalo" goto:.Pasillo
@@ -181,13 +169,13 @@ Tom: hm... mira, busquemos en esa...
 @back BoxF
 @set CD=1
 @back Boxxy
-@char Lee.Juzgon visible:true
-Lee: ¡Genial! Esto será de mucha ayuda
-@char Tom.Confundido visible:true
-Tom: También lo creo, pero mejor vamonos de aquí ya, me siento incomodo... 
-@char Lee.Soberbio
-Lee: Por cierto, guarda eso antes de irnos....
-Tom: Ok, vámonos de aquí.
+@char Lee.MeDoxxean visible:true
+Lee: AAAAAA ME DOXXEAAAAN
+@char Tom.Nani visible:true
+Tom: ¿QUE TE PASÓ? 
+@char Lee.JiJi
+Lee: Ji, Ji: bromita
+Tom: Me asustas... mejor vámonos de aquí ya.
 @goto .Pasillo
 @endif
 @stop
@@ -196,11 +184,9 @@ Tom: Ok, vámonos de aquí.
 @stopBgm 
 @bgm Depths
 @back Boxxy
-@char Tom.Sacadodepedo
 Tom: ¿Q-qué es eso?
-@char Lee.Confundido visible:true
+@char Lee.JiJi visible:true
 Lee: ¿Sabes? Creo que no debiste bajar...
-@char Tom.Desconfiado
 Tom: Mierda.
 @char Lee visible:false
 @hidePrinter 
@@ -212,23 +198,25 @@ Tom: Mierda.
 @stopBgm 
 @bgm Depths
 @back Liminal
-@char Tom.Confundido visible:true
+@char Tom.UhA visible:true
 Tom: Es un área para niños...
+@char Lee.JiJi visible:true
+Lee: Wow, que observador mi amigo.
 @char Tom.Kira
 Tom: ...
-@char Lee.Juzgon
+@char Lee.TodoUnFornicador
 Lee: ¡Mira, ahí hay un reproductor de música!
 @if CD=0
-@char Lee.Confundido
+@char Lee.Explain
 Lee: Quizá deberíamos volver mas tarde, cuando encuentres un CD.
-@char Tom.Pensando
+@char Tom.Generic
 Tom: Dudo mucho encontrar eso aquí, pero ok.
 @goto .Pasillo
 @elseif CD=1
-@char Lee.Mamon
-Lee: ¿Que tal y si intentas poner el CD que encontraste?...
-@char Tom.Sacadodepedo
-Tom: Es verdad, el CD...
+@char Lee.JiJi
+Lee: ¿Que tal y si intentas poner el CD que encontraste ahí? A lo mejor y tiene música de Tatiana...
+@char Tom.Duh
+Tom: Si, claro: lo que digas.
 @char Lee visible:false
 @char Tom.Idle visible:false
 *Introduciendo CD*
@@ -236,11 +224,11 @@ Tom: Es verdad, el CD...
 BEEP
 X: Ya sabes que las puertas deben permanecer cerradas las 24 horas del día, por eso existe el código de ingreso.
 Y: ¡Ok tranquilo! Solo me fui unos minutos.
-X: No seas imbécil, si uno de estos lunáticos logra salir de aquí, tú y yo estaremos despedidos.
+X: No seas imbécil, si uno de estos lunáticos logra salir de aquí, tú y yo estaremos despedidos en menos de lo que canta un gallo.
 Y: Ya entendí, no sobreactues, nada salió mal. ¿Cambiaste el código de acceso? Dame el nuevo.
 X: Agh, más vale que te lo aprendas, no lo repetiré. Es 97732.
-@char Lee.Soberbio visible:true
-Lee: ¿Memorizaste algo?
+@char Lee.JiJi visible:true
+Lee: A huevo, chismecito: ¿Memorizaste algo?
 Tom: 97732...
 @set Code=1
 @char Lee visible:false
@@ -259,12 +247,12 @@ Lee: Tampoco yo: supongo que deberemos volver en otro momento
 @elseif Code=1
 Tom: 9 7 7 3 2...
 *click*
-@char Lee.Confundido visible:true
-Lee: Hmm... ¿De verdad vas a entrar a ese lugar?
+@char Lee.SiPeroNo visible:true
+Lee: ¡Woah! ¡No tán rápido, velocista! ¿De verdad vas a entrar a ese lugar?
 @choice "No, me da mala espina" goto:.Pasillo
 @choice Sí
 @stop
-@char Lee.Neutral
+@char Lee.Ohio
 Lee: Está bien: vamos allá...
 @char Lee visible:false
 @char Tom visible:false

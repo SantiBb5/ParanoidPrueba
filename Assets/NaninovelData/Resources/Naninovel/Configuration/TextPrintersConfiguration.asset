@@ -103,7 +103,7 @@ MonoBehaviour:
       AutoReset: 1
       AutoDefault: 1
       AutoWait: 1
-      WaitAfterRevealSkip: 1
+      WaitAfterRevealSkip: 0
       AutoLineBreak: 0
       AddToBacklog: 1
       SplitBacklogMessages: 0

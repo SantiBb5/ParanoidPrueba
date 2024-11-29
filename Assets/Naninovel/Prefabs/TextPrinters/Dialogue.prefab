@@ -308,8 +308,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 263, y: -161}
-  m_SizeDelta: {x: 1077, y: 115}
+  m_AnchoredPosition: {x: 256.9, y: -152}
+  m_SizeDelta: {x: 984.7, y: 122.2634}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &222492164724932096
 CanvasRenderer:
@@ -341,10 +341,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e2aefdc7b486e0d4bb8e02898fbf7b17, type: 3}
-    m_FontSize: 35
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 3
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -413,8 +413,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 703.294, y: -343}
-  m_SizeDelta: {x: 1347, y: 359.65}
+  m_AnchoredPosition: {x: 703.29, y: -336}
+  m_SizeDelta: {x: 1272, y: 329.92}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222482568275147358
 CanvasRenderer:
@@ -729,7 +729,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 97, y: -84}
+  m_AnchoredPosition: {x: 134, y: -67}
   m_SizeDelta: {x: 265.5, y: 70}
   m_Pivot: {x: 0, y: 0}
 --- !u!222 &222948244329986218
@@ -762,7 +762,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e2aefdc7b486e0d4bb8e02898fbf7b17, type: 3}
-    m_FontSize: 40
+    m_FontSize: 39
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1092,7 +1092,7 @@ PrefabInstance:
       objectReference: {fileID: 12800000, guid: e2aefdc7b486e0d4bb8e02898fbf7b17, type: 3}
     - target: {fileID: 114696619141733288, guid: f9ef02f710a46014a8a8584187c986f4, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 40
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 114785800284832332, guid: f9ef02f710a46014a8a8584187c986f4, type: 3}
       propertyPath: m_Color.b
@@ -1116,7 +1116,7 @@ PrefabInstance:
       objectReference: {fileID: 12800000, guid: e2aefdc7b486e0d4bb8e02898fbf7b17, type: 3}
     - target: {fileID: 114785800284832332, guid: f9ef02f710a46014a8a8584187c986f4, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 40
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 114833701804373818, guid: f9ef02f710a46014a8a8584187c986f4, type: 3}
       propertyPath: m_Enabled
@@ -1284,11 +1284,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224115850812684320, guid: f9ef02f710a46014a8a8584187c986f4, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 87
+      value: 92
       objectReference: {fileID: 0}
     - target: {fileID: 224115850812684320, guid: f9ef02f710a46014a8a8584187c986f4, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -45
+      value: -53
       objectReference: {fileID: 0}
     - target: {fileID: 224255414734041114, guid: f9ef02f710a46014a8a8584187c986f4, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1308,7 +1308,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224255414734041114, guid: f9ef02f710a46014a8a8584187c986f4, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 195
+      value: 225
       objectReference: {fileID: 0}
     - target: {fileID: 224255414734041114, guid: f9ef02f710a46014a8a8584187c986f4, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1572,11 +1572,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224735821615191018, guid: f9ef02f710a46014a8a8584187c986f4, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1293
+      value: 1248
       objectReference: {fileID: 0}
     - target: {fileID: 224735821615191018, guid: f9ef02f710a46014a8a8584187c986f4, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 296
+      value: 304
       objectReference: {fileID: 0}
     - target: {fileID: 224756076432746532, guid: f9ef02f710a46014a8a8584187c986f4, type: 3}
       propertyPath: m_AnchorMax.y

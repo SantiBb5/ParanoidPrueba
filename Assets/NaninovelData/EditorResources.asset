@@ -366,10 +366,10 @@ MonoBehaviour:
     Resources:
     - name: Opening
       pathPrefix: Movies
-      guid: da27e4f17255ee3408143f63a5bca5af
+      guid: b545abc337999a64cbabe481001abfec
     - name: Screamer1
       pathPrefix: Movies
-      guid: f72a07cef1ec43b41825aa0b985c5431
+      guid: 03ea03217b261bf419ea2ca1d94eab33
   - Id: Characters/4d989c6c-eb5c-444f-a093-e6cb83c34fbc
     Resources:
     - name: Gaga

@@ -15,7 +15,7 @@ C:/Users/woode/OneDrive/Documentos/GitHub/Paranoid
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64064
+54370
 -job-worker-count
 7
 -background-job-worker-count
@@ -58,12 +58,12 @@ C:/Users/woode/OneDrive/Documentos/GitHub/Paranoid
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1596] Host "[IP] 172.18.48.228 [Port] 0 [Flags] 2 [Guid] 9422088 [EditorId] 9422088 [Version] 1048832 [Id] WindowsEditor(7,DinoboiLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [1596] Host "[IP] 172.18.48.228 [Port] 0 [Flags] 2 [Guid] 9422088 [EditorId] 9422088 [Version] 1048832 [Id] WindowsEditor(7,DinoboiLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12716] Host "[IP] 172.18.48.228 [Port] 0 [Flags] 2 [Guid] 2583290546 [EditorId] 2583290546 [Version] 1048832 [Id] WindowsEditor(7,DinoboiLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12716] Host "[IP] 172.18.48.228 [Port] 0 [Flags] 2 [Guid] 2583290546 [EditorId] 2583290546 [Version] 1048832 [Id] WindowsEditor(7,DinoboiLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 3.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.1f1 (a6dd9a634651)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -71,15 +71,15 @@ Initialize engine version: 2023.2.1f1 (a6dd9a634651)
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
-    Vendor:   NVIDIA
-    VRAM:     3962 MB
-    Driver:   32.0.15.5613
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7855 MB
+    Driver:   31.0.21910.8001
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -94,43 +94,43 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.006309 seconds.
-- Loaded All Assemblies, in  0.678 seconds
+Registered in 0.012059 seconds.
+- Loaded All Assemblies, in  1.110 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 459 ms
+Android Extension - Scanning For ADB Devices 542 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  1.046 seconds
-Domain Reload Profiling: 1720ms
-	BeginReloadAssembly (224ms)
+- Finished resetting the current domain, in  1.441 seconds
+Domain Reload Profiling: 2545ms
+	BeginReloadAssembly (388ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (93ms)
-	LoadAllAssembliesAndSetupDomain (276ms)
-		LoadAssemblies (220ms)
+	RebuildCommonClasses (109ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (146ms)
+	LoadAllAssembliesAndSetupDomain (430ms)
+		LoadAssemblies (382ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (272ms)
-			TypeCache.Refresh (271ms)
-				TypeCache.ScanAssembly (250ms)
+		AnalyzeDomain (424ms)
+			TypeCache.Refresh (421ms)
+				TypeCache.ScanAssembly (389ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1047ms)
+	FinalizeReload (1442ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (959ms)
+		SetupLoadedEditorAssemblies (1316ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (631ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (11ms)
-			ProcessInitializeOnLoadAttributes (234ms)
-			ProcessInitializeOnLoadMethodAttributes (78ms)
+			InitializePlatformSupportModulesInManaged (780ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (19ms)
+			ProcessInitializeOnLoadAttributes (388ms)
+			ProcessInitializeOnLoadMethodAttributes (119ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -153,157 +153,141 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Users\woode\OneDrive\Documentos\GitHub\Paranoid\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\woode\OneDrive\Documentos\GitHub\Paranoid\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.401 seconds
-Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.166 seconds
+Refreshing native plugins compatible for Editor in 3.00 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 DisplayProgressbar: Generating Metadata
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.120 seconds
-Domain Reload Profiling: 3508ms
-	BeginReloadAssembly (485ms)
+- Finished resetting the current domain, in  2.657 seconds
+Domain Reload Profiling: 4812ms
+	BeginReloadAssembly (799ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (13ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (62ms)
-	RebuildNativeTypeToScriptingClass (28ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (751ms)
-		LoadAssemblies (529ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (88ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (114ms)
+	LoadAllAssembliesAndSetupDomain (1114ms)
+		LoadAssemblies (857ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (386ms)
-			TypeCache.Refresh (328ms)
-				TypeCache.ScanAssembly (302ms)
-			BuildScriptInfoCaches (40ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (2121ms)
+		AnalyzeDomain (517ms)
+			TypeCache.Refresh (442ms)
+				TypeCache.ScanAssembly (407ms)
+			BuildScriptInfoCaches (55ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2658ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1730ms)
+		SetupLoadedEditorAssemblies (2169ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (87ms)
-			ProcessInitializeOnLoadAttributes (523ms)
-			ProcessInitializeOnLoadMethodAttributes (1066ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (739ms)
+			ProcessInitializeOnLoadMethodAttributes (1229ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 2.50 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3996 unused Assets / (1.3 MB). Loaded Objects now: 4567.
-Memory consumption went from 128.6 MB to 127.3 MB.
-Total: 9.696800 ms (FindLiveObjects: 0.721200 ms CreateObjectMapping: 0.373000 ms MarkObjects: 7.001500 ms  DeleteObjects: 1.598900 ms)
+Unloading 4033 unused Assets / (1.4 MB). Loaded Objects now: 4604.
+Memory consumption went from 128.8 MB to 127.3 MB.
+Total: 17.873700 ms (FindLiveObjects: 1.046500 ms CreateObjectMapping: 0.822800 ms MarkObjects: 12.972800 ms  DeleteObjects: 3.029700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 268277.174947 seconds.
-  path: Assets/ProjectSettings/EditorBuildSettings.asset
-  artifactKey: Guid(7e350bad05a4e2441b871122a10e3eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ProjectSettings/EditorBuildSettings.asset using Guid(7e350bad05a4e2441b871122a10e3eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b67d7e6d52fad3ae7113503caf6f6a4') in 0.0085469 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 340976.742077 seconds.
+  path: Assets/NuevosAssets/Animatics/AnimaticinicioV.mp4
+  artifactKey: Guid(b545abc337999a64cbabe481001abfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuevosAssets/Animatics/AnimaticinicioV.mp4 using Guid(b545abc337999a64cbabe481001abfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2aa3bbffebe9c5167e825b1689aea289') in 0.0396262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Naninovel/Prefabs/DefaultUI/PauseUI.prefab
-  artifactKey: Guid(480f5db62ea305c46b89a86496d2a0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Naninovel/Prefabs/DefaultUI/PauseUI.prefab using Guid(480f5db62ea305c46b89a86496d2a0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ea19c7e2542f856b33b0fcd6959f82a') in 0.0846591 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 87
+  Time since last request: 0.000106 seconds.
+  path: Assets/NuevosAssets/Animatics/AnimaticFinalV.mp4
+  artifactKey: Guid(03ea03217b261bf419ea2ca1d94eab33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuevosAssets/Animatics/AnimaticFinalV.mp4 using Guid(03ea03217b261bf419ea2ca1d94eab33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '877d0c66f5f2175a40b80938a96b6025') in 0.0021868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Naninovel/Prefabs/DefaultUI/CGGalleryUI.prefab
-  artifactKey: Guid(71da50c8dae82bd42ba67528804e820c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Naninovel/Prefabs/DefaultUI/CGGalleryUI.prefab using Guid(71da50c8dae82bd42ba67528804e820c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '258ffe900dedcc5cb49f73dd3fa12ff3') in 0.0176038 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 103
+Received Prepare
+Begin MonoManager ReloadAssembly
+29/11/2024 09:38:09 a. m.|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
+29/11/2024 09:38:09 a. m.|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|Thread was being aborted.
+29/11/2024 09:38:09 a. m.|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|Thread was being aborted.
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\woode\OneDrive\Documentos\GitHub\Paranoid\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\woode\OneDrive\Documentos\GitHub\Paranoid\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.557 seconds
+Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.InvalidOperationException: The underlying listener has failed to start. ---> System.Net.Sockets.SocketException: Solo se permite un uso de cada dirección de socket (protocolo/dirección de red/puerto)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Naninovel/Prefabs/DefaultUI/LoadingUI.prefab
-  artifactKey: Guid(53aad00e5cf184e458adb001c550518a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Naninovel/Prefabs/DefaultUI/LoadingUI.prefab using Guid(53aad00e5cf184e458adb001c550518a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07a439189328036c7530ee188850d3c8') in 0.015398 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 57
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.057 seconds
+Domain Reload Profiling: 3602ms
+	BeginReloadAssembly (505ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (203ms)
+	RebuildCommonClasses (86ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (848ms)
+		LoadAssemblies (734ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (338ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (299ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (2058ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1580ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (618ms)
+			ProcessInitializeOnLoadMethodAttributes (753ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 3.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4025 unused Assets / (1.2 MB). Loaded Objects now: 4607.
+Memory consumption went from 122.9 MB to 121.7 MB.
+Total: 9.659500 ms (FindLiveObjects: 0.663000 ms CreateObjectMapping: 0.394600 ms MarkObjects: 6.739800 ms  DeleteObjects: 1.860300 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Naninovel/Prefabs/DefaultUI/MySaveLoadUI.prefab
-  artifactKey: Guid(27195f6b0fa2ed940a74f5e6b1a14c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Naninovel/Prefabs/DefaultUI/MySaveLoadUI.prefab using Guid(27195f6b0fa2ed940a74f5e6b1a14c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '931f45be54ce83a95c3106a5f438b8aa') in 0.0174486 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 239
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Naninovel/Resources/Naninovel/EngineInitializationUI.prefab
-  artifactKey: Guid(4c50c16ce50037944a540ca5b289de39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Naninovel/Resources/Naninovel/EngineInitializationUI.prefab using Guid(4c50c16ce50037944a540ca5b289de39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60d66273aa3b1fd98799bbb825e6ab9d') in 0.0045058 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Assets_visuales/Loquis Sprites/Loquis12.png
-  artifactKey: Guid(3f3bbfe2a69d29e4d81752855695fc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_visuales/Loquis Sprites/Loquis12.png using Guid(3f3bbfe2a69d29e4d81752855695fc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd23ccdf6755e2bb59624e35324e23ac') in 0.1162192 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Naninovel/Prefabs/DefaultUI/MovieUI.prefab
-  artifactKey: Guid(f9a211517d1cb1a44964dc2254463049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Naninovel/Prefabs/DefaultUI/MovieUI.prefab using Guid(f9a211517d1cb1a44964dc2254463049) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85451ebe6f753f7c0f1f400512beaecb') in 0.0046968 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Naninovel/Prefabs/DefaultUI/SaveLoadUI.prefab
-  artifactKey: Guid(8d53726b3d08433479398f02b4780e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Naninovel/Prefabs/DefaultUI/SaveLoadUI.prefab using Guid(8d53726b3d08433479398f02b4780e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16d58bd24cfa8dc5977734dfd9ba53b2') in 0.0097856 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 238
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Assets_visuales/Loquis Sprites/Loquis6.png
-  artifactKey: Guid(8a18557f02a9e044295d57be734ad630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_visuales/Loquis Sprites/Loquis6.png using Guid(8a18557f02a9e044295d57be734ad630) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1949ac682cc4b53f01ea1875875ff4a0') in 0.0345371 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
-  artifactKey: Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg using Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '873919e778ff28db2a8463ba46dd82fe') in 0.0222677 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Naninovel/Prefabs/DefaultUI/SettingsUI.prefab
-  artifactKey: Guid(65c37f59e9b266f468dd5381fdc03fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Naninovel/Prefabs/DefaultUI/SettingsUI.prefab using Guid(65c37f59e9b266f468dd5381fdc03fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '624bab437a24d28f0c0d253f45b4e51e') in 0.0359702 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 792
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Assets_visuales/Loquis Sprites/Loquis10.png
-  artifactKey: Guid(dc65f5bbee0e8bc42bfcb6757db643fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_visuales/Loquis Sprites/Loquis10.png using Guid(dc65f5bbee0e8bc42bfcb6757db643fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '603925b58cc589c6d2566aa41c754cb7') in 0.0439579 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-28/11/2024 01:26:43 p. m.|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
-28/11/2024 01:27:12 p. m.|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
-28/11/2024 01:27:12 p. m.|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+Prepare: number of updated asset objects reloaded= 0

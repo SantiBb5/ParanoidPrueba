@@ -70,7 +70,7 @@ Lee: Entonces, si ya terminaste con la paranoia: debemos decidir a dónde ir. Po
 @stopBgm 
 @bgm MysteryMusic
 @back Oficina
-@choice Estante goto:.Estante
+@choice Librero goto:.Estante
 @choice Computadora goto:.Computadora
 @choice Archivero goto:.ArchiveroRoot
 @choice Atrás goto:.Pasillo
@@ -124,9 +124,16 @@ Lee: Bueno, aquí no hay nada más, tal vez debamos ir a las otras puertas.
 
 # Estante
 @back Estante
+@char Lee.Confundido
 Lee: Hmm, parece que aquí hay un acertijo...
+@char Tom.Confundido
 Tom: ¿De que hablas? solo son libros desacomodados que hay que ordenar...
-Lee: No perdemos nada intentándolo, aunque te advierto que algo podría pasar si completamos el puzzle
+@char Lee.Juzgón
+Lee: Deberías intentarlo, me intriga saber qué pasará cuando los acomodes.
+@char Tom.Desconfiado
+Tom: Tu intriga me da desconfianza.
+@char Lee.Burlón
+Lee: Okey, no diré más entonces…
 @choice ¡resolvámoslo! goto:.Puzzle1
 @choice "mejor no" goto:.Oficina
 @stop
@@ -149,7 +156,6 @@ Lee: ¿Estás seguro de que quieres entrar ahí? No tenemos linterna...
 Lee: ¿Estás seguro de que quieres entrar ahí? Siento unas vibras raras emanar del lugar...
 @choice "Sí, bajemos"
 @choice "Mejor volvamos" goto:.Pasillo
-@char Lee.MeDoxxean visible:false
 @stop
 @back Boxxy
 Lee: Tal vez tienes que buscar algo...
@@ -169,13 +175,12 @@ Tom: hum... mira, busquemos en esa...
 @back BoxF
 @set CD=1
 @back Boxxy
-@char Lee.MeDoxxean visible:true
-Lee: AAAAAA ME DOXXEAAAAN
-@char Tom.Nani visible:true
-Tom: ¿QUE TE PASÓ? 
-@char Lee.JiJi
-Lee: Ji, Ji: bromita
-Tom: Me asustas... mejor vámonos de aquí ya.
+@char Lee.Juzgón visible:true
+Lee: ¡Genial! Eso será de mucha ayuda.
+@char Tom.Confundido visible:true
+Tom: También lo creo, pero mejor vámonos de aquí ya, me siento incomodo…
+@char Lee.Soberbio
+Lee: Guarda eso antes de irnos, por cierto…
 @goto .Pasillo
 @endif
 @stop
@@ -221,15 +226,19 @@ Tom: Si, claro: lo que digas.
 @char Tom.Idle visible:false
 *Introduciendo CD*
 *Leyendo CD*
-BEEP
+*BEEP*
 X: Ya sabes que las puertas deben permanecer cerradas las 24 horas del día, por eso existe el código de ingreso.
 Y: ¡Ok tranquilo! Solo me fui unos minutos.
 X: No seas imbécil, si uno de estos lunáticos logra salir de aquí, tú y yo estaremos despedidos en menos de lo que canta un gallo.
 Y: Ya entendí, no sobreactues, nada salió mal. ¿Cambiaste el código de acceso? Dame el nuevo.
 X: Agh, más vale que te lo aprendas, no lo repetiré. Es 97732.
-@char Lee.JiJi visible:true
-Lee: A huevo, chismecito: ¿Memorizaste algo?
+*BEEP*
+@char Lee.Soberbio visible:true
+Lee: ¿Memorizaste algo?
+@char Tom.Pensando
 Tom: 97732...
+@char Lee.Neutral
+Lee:  No lo olvides, sería todo un horror tener que regresar hasta aquí si algo pasa… 
 @set Code=1
 @char Lee visible:false
 @goto .Pasillo

@@ -215,7 +215,7 @@ MonoBehaviour:
       guid: 78af71617a0a6fc4fad3ffce1ea3662b
     - name: GameOver
       pathPrefix: Backgrounds/MainBackground
-      guid: 98f71b8f422971a4fab6363c1642b942
+      guid: 4caf3212e6f00ab41941e08f701e28b5
     - name: Alternate
       pathPrefix: Backgrounds/MainBackground
       guid: 0e3272425076f94499aac0cd6aea6713
@@ -227,7 +227,7 @@ MonoBehaviour:
       guid: 887a95c878c59814f8aa9ad134207fd7
     - name: Liminal
       pathPrefix: Backgrounds/MainBackground
-      guid: cf0ac5cb04513ce41a49433d73d2ebbc
+      guid: 77a40f3d940b92f4dbd1a5a854127e8c
     - name: BoxA
       pathPrefix: Backgrounds/MainBackground
       guid: 1d0b169f0ac6ca343a153820acee3b12

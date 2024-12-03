@@ -59,10 +59,10 @@ Lee: Entonces, si ya terminaste con la paranoia: debemos decidir a dónde ir. Po
 @back PasilloB
 @stopBgm 
 @bgm LiminalSpace
-@choice Oficina goto:.Oficina
+@choice Oficina goto:.Escaleras
 @choice Escaleras goto:.Escaleras
-@choice "Habitación 2" goto:.Habitacion2
-@choice "Pasillo 2" goto:.Pasillo2
+@choice "Habitación 2" goto:.Escaleras
+@choice "Pasillo 2" goto:.Escaleras
 @stop
 
 # Oficina

@@ -42,10 +42,8 @@ Tom: ¿Pero qué haces tú aquí? ¿Y quién eres?
 Lee:  Te podría preguntar exactamente lo mismo, pero a este punto es irrelevante ¿No crees? Quieres salir de aquí, así que andando…
 @back PasilloA
 @char Tom.Desconfiado
-Tom: No voy a ir con un extraño en un hospital abandonado.
-@char Lee.Explain
 Tom: No voy a ir con un extraño en un hospital abandonado...
-@char Lee.SiPeroNo
+@char Lee.Explain
 Lee: Si quisiera matarte o algo, ya lo habría hecho mientras dormías.
 @char Tom.Pensando
 Tom: ...Tienes un punto... Quizás...
@@ -190,7 +188,7 @@ Lee: Guarda eso antes de irnos, por cierto…
 @bgm Depths
 @back Boxxy
 Tom: ¿Q-qué es eso?
-@char Lee.JiJi visible:true
+@char Lee.Neutral visible:true
 Lee: ¿Sabes? Creo que no debiste bajar...
 Tom: Mierda.
 @char Lee visible:false
